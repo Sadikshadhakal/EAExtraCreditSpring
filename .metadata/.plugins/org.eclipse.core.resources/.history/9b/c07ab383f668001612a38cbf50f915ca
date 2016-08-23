@@ -1,0 +1,9 @@
+package cs544.mum.edu.dao;
+
+import org.springframework.stereotype.Repository;
+import cs544.mum.edu.domain.Users;
+
+@Repository
+public Interface IUserDAO extends JpaRepository<Users,Long>  {
+
+}

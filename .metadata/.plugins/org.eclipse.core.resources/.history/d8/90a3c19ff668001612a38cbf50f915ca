@@ -1,0 +1,5 @@
+package cs544.mum.edu.dao;
+
+public interface IUserDAO {
+
+}
