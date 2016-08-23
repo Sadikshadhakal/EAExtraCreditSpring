@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Aug 23 02:32:54 CDT 2016
+org.eclipse.jst.jee.server\:EAExtraCreditSpring=D\:\\softwares\\forStudents\\64bit\\New folder\\spring-tool-suite-3.7.0.RELEASE-e4.5-win32-x86_64\\sts-bundle\\pivotal-tc-server-developer-3.1.1.RELEASE\\base-instance\\wtpwebapps\\EAExtraCreditSpring
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Sadiksha\\.m2\\repository\\org\\springframework\\spring-web\\4.1.6.RELEASE\\spring-web-4.1.6.RELEASE.jar=D\:\\softwares\\forStudents\\64bit\\New folder\\spring-tool-suite-3.7.0.RELEASE-e4.5-win32-x86_64\\sts-bundle\\pivotal-tc-server-developer-3.1.1.RELEASE\\base-instance\\wtpwebapps\\EAExtraCreditSpring\\WEB-INF\\lib\\spring-web-4.1.6.RELEASE.jar

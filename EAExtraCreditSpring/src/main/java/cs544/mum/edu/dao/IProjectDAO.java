@@ -13,6 +13,9 @@ import cs544.mum.edu.domain.Project;
 public interface IProjectDAO extends JpaRepository<Project, Long>{
 	List<Project> findByStatus(String status);
 	
+	@Query("From Project P")
+	List<Project>getAllProjects();
+	
 	@Query("From Project p where p.status = :status")
 	List<Project>findAllByStatus(@Param("status")String status);
 	
