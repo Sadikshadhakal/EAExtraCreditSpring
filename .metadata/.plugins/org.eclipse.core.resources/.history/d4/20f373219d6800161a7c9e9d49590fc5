@@ -1,0 +1,44 @@
+package mum.edu.cs544.dao;
+
+import java.util.List;
+
+import mum.edu.cs544.domain.Project;
+
+public class ProjectDAO implements IProjectDAO{
+
+	public void createProject(Project project) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void updateProject(Project project) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Project> searchProjectByResource(String resource) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Project> searchProjectByKeyword(String keyword) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Project> searchProjectByLocation(String location) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Project> getAllProjectsHavingVolunteer() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Project> getAllProjects() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

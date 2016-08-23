@@ -1,0 +1,9 @@
+package mum.edu.cs544.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import mum.edu.cs544.domain.Project;
+
+public interface IProjectDAO extends JpaRepository<Project, Long>{
+	
+}

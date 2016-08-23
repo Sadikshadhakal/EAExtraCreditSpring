@@ -1,0 +1,18 @@
+package mum.edu.cs544.dao;
+
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import mum.edu.cs544.domain.Project;
+
+@Repository
+public interface IProjectDAO extends JpaRepository<ProjectDAO, Long>{
+	void createProject(Project project);
+	void updateProject(Project project);
+	List<Project> searchProjectByResource(String resource);
+	List<Project> searchProjectByKeyword(String keyword);
+	List<Project> searchProjectByLocation(String location);
+	List<Project> getAllProjectsHavingVolunteer();
+	List<Project> getAllProjects();
+}
